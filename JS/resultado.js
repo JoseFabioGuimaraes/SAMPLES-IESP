@@ -1,16 +1,20 @@
+/* O código interpreta apenas se o valor inputado na altura for usada com "." não com ","
+e se o input do sexo for apenas "M" E "F" em maiúsculo
+*/
+
 var k = 0;
 var maiorAltura = 0;
 var menorAltura = 3.00;
 var numeroMulheres = 0;
-var numeroHomens
-var mediaMasculinaAltura = 0;
-parseFloat(mediaMasculinaAltura);
-while(k <2){
+var numeroHomens = 0;
+let mediaMasculinaAltura = 0;
+while(k <15){
     k++
-    var altura = prompt("Digite sua Altura: ");
+    let altura = parseFloat(prompt("Digite sua Altura: ")); 
     var sexo = prompt("Digite seu sexo: ");
 
-    if(altura>maiorAltura){
+    
+    if(altura>maiorAltura){ 
         maiorAltura = altura
     }
     if(altura<menorAltura){
@@ -21,13 +25,13 @@ while(k <2){
     }
     if(sexo =="M"){
         numeroHomens += 1
-        parseFloat(altura)
         mediaMasculinaAltura += altura
     }
 
 
 }
+let media = mediaMasculinaAltura/numeroHomens;
 console.log("Quantidade de mulheres igual a: "+numeroMulheres);
 console.log("A maior altura é: "+maiorAltura);
 console.log("Já a menor é: "+menorAltura);
-console.log("E a media de altura dos homens é igual a: "+mediaMasculinaAltura);
+console.log("E a media de altura dos homens é igual a: "+media);
