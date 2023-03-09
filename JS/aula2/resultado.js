@@ -1,5 +1,6 @@
 /* O código interpreta apenas se o valor inputado na altura for usada com "." não com ","
 e se o input do sexo for apenas "M" E "F" em maiúsculo
+.toFixed(N)
 */
 
 var k = 0;
