@@ -6,7 +6,7 @@ public class AreaTrianguloSOO {
         double xa = 3.0, xb = 4.0, xc= 5.0;
 
         //segundo triangulo
-        double ya = 7.5,yb = 4.5,yc = 4.02;
+        double ya = 7.5, yb = 4.5, yc = 4.02;
 
         double pDeX =(xa+xb+xc)/2; // p vem da formula de area
         double pDeY =(ya+yb+yc)/2;
