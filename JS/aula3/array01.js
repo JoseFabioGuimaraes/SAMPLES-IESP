@@ -7,3 +7,5 @@ while (i<5){
     i++; 
 }
 console.log(alunos)
+
+//teste de como adicioonar valores sem o .push
