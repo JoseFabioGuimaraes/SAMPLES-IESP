@@ -8,7 +8,7 @@ function somar(a,b) {
 var num1 = prompt("digite seu primeiro valor: ");
 var num2 = prompt("digite seu segundo valor: ");  
 
-//transformando as variaveis em valores da função
+//transformando as variaveis em parâmetros da função
 var numeroSom = somar(Number(num1),Number(num2)); // Number serve para transformar o string em numero
 
 //print da variavel numeroSom
