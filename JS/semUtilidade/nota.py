@@ -1,8 +1,8 @@
 """
-1) é muma forma de organizar e manipular dados, facilitando a modificação
+1) é uma forma de organizar e manipular dados, facilitando a modificação
 2) a)
 3) a)
-4) A manipulação fica mais rapida, poupando menoria e tempo
+4) A manipulação fica mais rapida, poupando memoria e tempo
 5) a)
 6) 
 
