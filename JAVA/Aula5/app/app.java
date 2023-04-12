@@ -10,5 +10,10 @@ public class app {
 
         //polomorfismo
         Forma f = new Quadrado(colors.VERMELHO,9.0,9.0);
+
+        System.out.println("Area do quadrado " +q.calcularArea());
+        System.out.println("Area do Circulo " +c.calcularArea());
+        System.out.println("Area do Triangulo " +t.calcularArea());
+        System.out.println("Area do Forma (quadrado) " +f.calcularArea());
     }
 }
